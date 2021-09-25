@@ -27,6 +27,13 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/11.0" />
+  
+   <remote  name="crdroid-gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/11.0" />
+
 
   <!-- AOSP Projects -->
 
