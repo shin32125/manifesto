@@ -5,6 +5,11 @@
           fetch="https://github.com/"
           sync-c="true"
           revision="refs/heads/11.0" />
+  
+  <remote name="shin32125"
+          fetch="https://github.com/"
+          sync-c="true"
+          revision="refs/heads/11.0" />
 
 
   <!-- remove-project to replace -->
@@ -43,7 +48,7 @@
   <!--<project path="packages/apps/Updater" name="FlokoROM/packages_apps_Updater" remote="floko" />-->
   <project path="packages/services/OmniJaws" name="FlokoROM/packages_services_OmniJaws" remote="floko" />
   <project path="vendor/addons" name="FlokoROM/vendor_addons" remote="floko" />
-  <project path="vendor/lineage" name="FlokoROM/vendor_floko" remote="floko" />
+  <project path="vendor/lineage" name="shin32125/vendor_floko" remote="shin32125" />
   
   <!-- FlokoROM GitLab -->
   <project path="prebuilts/bromite" name="FlokoROM/prebuilts_bromite" remote="gitlab" revision="master" clone-depth="1" />
