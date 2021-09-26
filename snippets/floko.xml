@@ -14,7 +14,7 @@
 
   <!-- remove-project to replace -->
   <remove-project name="crdroidandroid/android_build" />
-  <remove-project name="crdroidandroid/android_frameworks_base" />
+
   <remove-project name="crdroidandroid/android_lineage-sdk" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidMusic" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
@@ -38,7 +38,7 @@
           <linkfile src="target" dest="build/target" />
           <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="frameworks/base" name="FlokoROM/frameworks_base" remote="floko" />
+  
   <project path="lineage-sdk" name="FlokoROM/lineage-sdk" remote="floko" />
   <project path="packages/apps/crDroidSettings" name="FlokoROM/packages_apps_FlokoSettings" remote="floko" />
   <project path="packages/apps/LineageParts" name="FlokoROM/packages_apps_LineageParts" remote="floko" />
